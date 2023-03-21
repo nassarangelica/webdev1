@@ -1,0 +1,17 @@
+body{
+    background: rgb(156, 143, 143) url(../images/color.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+.a h1:hover{
+    color: black;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 100%;
+}

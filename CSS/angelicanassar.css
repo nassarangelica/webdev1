@@ -1,0 +1,15 @@
+img{
+    image-resolution: 1080;
+    border-color: black;
+    height: 250px;
+    width: 250px;
+}
+
+h1{
+    color: black;
+    font-family: sans-serif;
+}
+
+.text{
+    font: bold;
+}

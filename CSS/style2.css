@@ -1,0 +1,19 @@
+body{
+    margin-left: 2in;
+    margin-right: 2in;
+}
+.h1{
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+img{
+    image-resolution: 1080;
+    border-color: black;
+    height: 250px;
+    width: 250px;
+}
+.text{
+    font-size: medium;
+    font-style: normal;
+}

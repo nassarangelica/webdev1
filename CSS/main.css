@@ -1,0 +1,136 @@
+*{
+    background-color: rgb(14, 13, 13);
+}
+a {
+    cursor: pointer;
+}
+
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(14, 13, 13);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    padding-left: 60px;
+}
+
+.header-main-logo img {
+    height: 60px;
+    align-self: center;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    }
+
+.header-main-nav ul{
+    list-style: none;
+    margin-left:30px;
+}
+
+.header-main-nav ul li{
+    display: inline;
+    float: left;
+}
+
+.header-main-nav ul li a{
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #705e5e;
+    display: block;
+    height: 100%;
+}
+
+.header-main-nav ul li a:hover{
+    color: rgb(134, 181, 202);
+
+}
+
+.header-main-sm {
+    width: fit-contents;
+    height: 100%;
+    padding-right: 60px;
+    display: flex   ;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header-main-sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(../image/logofb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-contact {
+    width: 20px;
+    height: 20px;
+    background-image: url(../image/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.b h1{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span{
+    color: brown;
+}
+
+.b p{
+    color: lightgrey;
+    line-height: 22px;
+}
+
+.b a{
+    background: #705e5e;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.b a:hover{
+    color: aqua;
+}
+
+.images{
+    width: 20;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    transform: translateX(-60%);
+    transition: bottom  1s, left 1s;
+}
+
+.images:hover .abs{
+    bottom: 40px;
+}
